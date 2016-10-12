@@ -53,8 +53,14 @@
 .grupo{
   position: relative;
   display: inline-block;
+  width: 45%;
+  border: 0px;
 }
 
 .dnone{
   display: none;
+}
+.inpEmail{
+  width: 90%;
+  border: 0px;
 }
