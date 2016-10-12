@@ -2,12 +2,14 @@
 	background-image: url("http://i.giphy.com/DP0zRwQKtlqda.gif")	;
   	background-size:cover;
 	background-repeat: no-repeat;
-   	width: 100%;
+    height: 100vh;
+  
+   	/*width: 100%;
     min-height: 100%;
     height: auto;
     position: fixed;
     top:0; 
-    left:0;
+    left:0;*/
 	
 }
 .imgLogo {
@@ -26,28 +28,33 @@
   width: 100%; 
 }
 .btnNext{
-	position: absolute;
+  position: absolute;
   text-align: center;
   bottom: 40px;
   left: 0px;
-  width: 100%; 
+  width: 100%;
 }
 
 .btnLog{
 	background-color: transparent;
 }
-.btnLog:hover{
-	background-color: #EF0076;
-}
+
+
 .btnSign{
 	background:  linear-gradient( 45deg, #EF0076, #610B5E);
 }
 .white{
 	color: white;
 }
-.white:hover{
-	color: gainsboro;
-}
 .w100{
 	width: 100%;
+  height: 50px;
+}
+.grupo{
+  position: relative;
+  display: inline-block;
+}
+
+.dnone{
+  display: none;
 }
