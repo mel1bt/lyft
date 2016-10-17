@@ -64,3 +64,8 @@
   width: 90%;
   border: 0px;
 }
+
+#map{
+  width: 500px;
+  height: 500px;
+}

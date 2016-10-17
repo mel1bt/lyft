@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sign Up</title>
+    <title>Registro de Datos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -27,21 +27,21 @@
             <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
           </span>
           <div class="form-control">
-            <input type="text" class="grupo" placeholder="First Name" aria-describedby="basic-addon1">
-            <input type="text" class="grupo" placeholder="Last Name" aria-describedby="basic-addon1">
+            <input type="text" class="datos grupo" id="nameVal" placeholder="First Name" aria-describedby="basic-addon1">
+            <input type="text" class="datos grupo" id="lastVal" placeholder="Last Name" aria-describedby="basic-addon1">
           </div>
-          
         </div>
          <div class="input-group">
           <span class="input-group-addon" id="basic-addon1">
-            <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
           </span>
           <div class="form-control">
-            <input type="text" class="inpEmail" placeholder="E-mail" aria-describedby="basic-addon1">
+            <input type="text" class="datos inpEmail" id="mailVal" placeholder="E-mail" aria-describedby="basic-addon1">
           </div>
-          
         </div>
        </form>
+       <div class="btnNext col-xs-12 col-lg-6">
+     		<button type="button" id="btnRegistro" class="w100 white btnSign btn btn-default">NEXT</button>
+     	</div>
       </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
