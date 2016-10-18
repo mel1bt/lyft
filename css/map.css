@@ -10,7 +10,7 @@ body {
 .logoMap{
    position: absolute;
   text-align: center;
-  left: 50%;
+  left: 35%;
   top: 0;
     z-index: 5;
 }
@@ -22,8 +22,15 @@ body {
 
 .btnCalcular{
   position: absolute;
-  width: 100%;
+  width: 100%;  
   z-index: 5px;
   bottom: 40px;
-  left: 20px;
+}
+
+.textRuta { 
+  position: absolute;
+  width: 100%;
+  border-radius: 3px;
+  z-index: 4px;
+  border-bottom: 60px;
 }
