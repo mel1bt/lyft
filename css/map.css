@@ -1,0 +1,29 @@
+body {
+   background: #2c2c2c;
+}
+
+#mapa {
+    height: 100%;
+    padding: 0;
+}
+
+.logoMap{
+   position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 0;
+    z-index: 5;
+}
+
+.imgLogo{
+  width: 200px;
+  height: 100px;
+}
+
+.btnCalcular{
+  position: absolute;
+  width: 100%;
+  z-index: 5px;
+  bottom: 40px;
+  left: 20px;
+}
