@@ -2,14 +2,14 @@
 	background-image: url("http://i.giphy.com/DP0zRwQKtlqda.gif")	;
   	background-size:cover;
 	background-repeat: no-repeat;
-    height: 100vh;
+    /*height: 100vh;*/
   
-   	/*width: 100%;
+   	width: 100%;
     min-height: 100%;
     height: auto;
     position: fixed;
     top:0; 
-    left:0;*/
+    left:0;
 	
 }
 .imgLogo {
@@ -19,6 +19,25 @@
   position: relative;
   text-align: center;
   top: 2em;
+}
+.imgLogoMap {
+  width: 15em;
+}
+
+.logoMap{
+  position: relative;
+  text-align: center;
+z-index: 5;
+}
+.formMap{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	top: 135%;
+	z-index: 5;
+}
+.textMap {
+	width: 100%;
 }
 .grupoBtn{
   position: absolute;
@@ -34,7 +53,9 @@
   left: 0px;
   width: 100%;
 }
-
+.btnMap{
+	width: 100%;
+}
 .btnLog{
 	background-color: transparent;
 }
@@ -64,8 +85,8 @@
   width: 90%;
   border: 0px;
 }
-
-#map{
-  width: 500px;
-  height: 500px;
+#mapa {
+	position: absolute;
+	width: 100%;
+	height: 100vh; 
 }
