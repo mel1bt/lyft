@@ -140,7 +140,8 @@ var cargarPagina = function (){
 	$("#btnValido").click(validarCode);
 	$(".datos").eq(0).focus();
 	$(".datos").blur(transfCadena);
-	$(".datos").keypress(valDatosForm);
+	$(".datos").eq(0).keypress(valDatosForm);
+  $(".datos").eq(1).keypress(valDatosForm);
 	$(".datos").eq(0).keydown(validarLongName);
 	$(".datos").eq(1).keydown(validarLongLast);
 	$("#btnRegistro").click(enviarDatos);
