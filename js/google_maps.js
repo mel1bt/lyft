@@ -3,6 +3,24 @@ var cargarPagina = function() {
 		// también se puede usar if ("geolocation" in navigator) {}
 		navigator.geolocation.getCurrentPosition(funcionExito, funcionError);
 	}
+	
+	var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+body = document.body;
+
+showLeft.onclick = function() {
+classie.toggle( this, 'active' );
+classie.toggle( menuLeft, 'cbp-spmenu-open' );
+disableOther( 'showLeft' );
+};
+
+function disableOther( button ) {
+if( button !== 'showLeft' ) {
+classie.toggle( showLeft, 'disabled' );
+}
+}
+	
+	
+	
 };
 
 var funcionExito = function(posicion) {
@@ -29,10 +47,19 @@ var funcionExito = function(posicion) {
     	map:map,
     	title:"You are here!"
     });
+	
+	
+
+	
+	
+	
+	
 };
 
 var funcionError = function (error) {
 	console.log(error);
 };
+
+
 
 $(document).ready(cargarPagina);
