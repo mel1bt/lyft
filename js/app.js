@@ -74,7 +74,7 @@ var transfCadena = function(){
 }
 
 var valDatosForm = function(evento){
-	/*
+	
 	var ascii = evento.keyCode;
 		if ((ascii<97 || ascii>122) && (ascii<65 || ascii>90) && ascii!=45 && ascii!=241 && ascii!=209 && ascii!=32 && ascii!=225 && ascii!=233 && ascii!=237 && ascii!=243 && ascii!=250 && ascii!=193 && ascii!=201 && ascii!=205 && ascii!=211 && ascii!=218 && ascii!=91){
 		return false;
@@ -82,7 +82,7 @@ var valDatosForm = function(evento){
 	else{
 		return true;
 	}
-*/
+
 };
 
 var msjAlerta = $("#msjAlerta");
@@ -140,7 +140,8 @@ var cargarPagina = function (){
 	$("#btnValido").click(validarCode);
 	$(".datos").eq(0).focus();
 	$(".datos").blur(transfCadena);
-	$(".datos").keypress(valDatosForm);
+	$(".datos").eq(0).keypress(valDatosForm);
+    $(".datos").eq(1).keypress(valDatosForm);
 	$(".datos").eq(0).keydown(validarLongName);
 	$(".datos").eq(1).keydown(validarLongLast);
 	$("#btnRegistro").click(enviarDatos);

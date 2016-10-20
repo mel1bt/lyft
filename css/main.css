@@ -93,8 +93,8 @@ z-index: 5;
 
 .userProfile {
 	position: absolute;
-	top: 150px;
-	left: 150px;
+	top: 60px;
+	left: 60px;
 	font-size: 60px;
 	color: deeppink;
 	z-index: 9;
@@ -134,4 +134,8 @@ height: 200px;
 }
 .center { 
 text-align: center;
+}
+
+.codeVal {
+  width: 30px;
 }
