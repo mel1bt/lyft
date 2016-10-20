@@ -124,8 +124,12 @@ var enviarDatos = function(){
 	}else{
 		location.href="home_map.html";	$("#usuarioLog").text(localStorage.getItem("nameReg"));
 	};
-    
-};
+  };
+  
+var irMapa = function(){
+  location.href = "home_map.html";
+};  
+
   
 var cargarPagina = function (){
 	$("#sigValidacion").click(btnRefInicial);
@@ -145,7 +149,7 @@ var cargarPagina = function (){
 	$(".datos").eq(0).keydown(validarLongName);
 	$(".datos").eq(1).keydown(validarLongLast);
 	$("#btnRegistro").click(enviarDatos);
-    $("#nameUserProfile").text(localStorage.getItem("nameReg"));
+    $("#irMap").click(irMapa); $("#nameUserProfile").text(localStorage.getItem("nameReg"));
 
 };
 
