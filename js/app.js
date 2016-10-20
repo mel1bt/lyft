@@ -105,7 +105,6 @@ var enviarDatos = function(){
 	if(validacionCorreo){
       location.href="home_maps.html";
 	}
-
 };
 
 
@@ -123,7 +122,7 @@ var enviarDatos = function(){
         text = "Ingrese un correo válido.";
 		alert(text);
 	}else{
-		location.href="home_map.html";
+		location.href="home_map.html";	$("#usuarioLog").text(localStorage.getItem("nameReg"));
 	};
     
 };

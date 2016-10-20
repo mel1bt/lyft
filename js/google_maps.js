@@ -17,6 +17,7 @@ function disableOther( button ) {
 if( button !== 'showLeft' ) {
 classie.toggle( showLeft, 'disabled' );
 }
+	
 }
 	
 	
@@ -63,3 +64,12 @@ var funcionError = function (error) {
 
 
 $(document).ready(cargarPagina);
+
+$(".button-collapse").sideNav({
+      menuWidth: 200, 
+      edge: "left", 
+      closeOnClick: true 
+    }
+  );
+
+$(".usuarioLog").text()=localStorage.getItem("nameReg");
