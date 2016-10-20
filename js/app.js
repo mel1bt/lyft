@@ -2,7 +2,7 @@ var btnRefInicial = function(evento){
 	location.href="sign_up.html";
 };
 
-var valNumCel = function(){
+var valNumCel = function(evento){
 	var ascii = evento.keyCode;
 		if (ascii == 8 || (ascii >= 48 && ascii <= 57)) {
 			return true;
@@ -11,7 +11,7 @@ var valNumCel = function(){
 		}
 };
 
-var valLongCel =function(){
+var valLongCel =function(evento){
 	var longitud = $(this).val().length;
 		if (longitud == 9) {
 			$("#verifCelular").removeAttr("disabled");
