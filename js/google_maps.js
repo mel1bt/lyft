@@ -49,19 +49,11 @@ var funcionExito = function(posicion) {
     	title:"You are here!"
     });
 	
-	
-
-	
-	
-	
-	
 };
 
 var funcionError = function (error) {
 	console.log(error);
 };
-
-
 
 $(document).ready(cargarPagina);
 
@@ -72,4 +64,5 @@ $(".button-collapse").sideNav({
     }
   );
 
-$(".usuarioLog").text()=localStorage.getItem("nameReg");
+$(".usuarioLog").text(localStorage.getItem("nameReg"));
+

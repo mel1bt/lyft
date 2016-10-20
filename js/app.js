@@ -144,6 +144,8 @@ var cargarPagina = function (){
 	$(".datos").eq(0).keydown(validarLongName);
 	$(".datos").eq(1).keydown(validarLongLast);
 	$("#btnRegistro").click(enviarDatos);
+    $("#nameUserProfile").text(localStorage.getItem("nameReg"));
+
 };
 
 

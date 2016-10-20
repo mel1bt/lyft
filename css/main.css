@@ -93,13 +93,45 @@ z-index: 5;
 
 .userProfile {
 	position: absolute;
-	top: 2%;
-	left: 4%;
-	font-size: 58px;
+	top: 150px;
+	left: 150px;
+	font-size: 60px;
 	color: deeppink;
 	z-index: 9;
 }
 .imgUser{
 	width: 100px;
 	height: 100px;
+}
+
+.m5-5 {
+ margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.profileUser {
+    position: relative;
+  text-align: center;
+  z-index: 8;   
+width: 100px;
+height: 100px;
+top: -159px;
+left: 148px;
+  
+}
+#imgProfile{
+  position: relative;
+height: 200px;
+}
+.fondoProfile{
+  width: 100%;
+  height: 200px;
+}
+#nameUserProfile{
+  text-align: center;
+  font-size: 40px;
+  
+}
+.center { 
+text-align: center;
 }
